@@ -1,0 +1,104 @@
+body{
+    background-color:#008080 ;
+}
+button{
+    background-color:#008080 ; 
+    border: none;
+    color: white;
+}
+input{
+    background-color:#008080 ; 
+    border: none;
+    color: white;
+}
+#container{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    color: white;
+}
+#author{
+    text-align: center;
+    position : absolute;
+    top: 90%;
+   width: 100%;
+   padding-top: 10px;
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+#break-label{
+    width: 180px;
+    height: 80px;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+#session-label{
+    width: 180px;
+    height: 80px;
+    position: absolute;
+    left: 270px;
+    top: 100px;
+}
+h2{
+    width: 100%;
+    text-align: center;
+}
+.buttons-container{
+    position: absolute;
+    left: 30px;
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+
+}
+#timer-label{
+    border: 5px solid #2F4F4F;
+    border-radius: 25%;
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    width: 180px;
+    height: 150px;
+    text-align: center;
+}
+h4{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    top:-20px;
+}
+#time-left{
+    width: 140;
+    position: absolute;
+    top: 50px;
+    left:20px; 
+    height: 35px;
+    padding-top: 10px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#minutes,#seconds{
+    width: 50px;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#controls{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 170px;
+    left: 50px; 
+    
+}

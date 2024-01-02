@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet">
+        <title>25+5 Clock</title>
+        <script src="https://kit.fontawesome.com/b307f7ef1b.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+    </head>
+    <body>
+        <div id="container">
+            <h1> 25 + 5 Clock</h1>
+            <div id="break-label">
+                <h2>Break Length</h2>
+                <div class="buttons-container" id="break-container">
+                    <button type="button" id="break-increment"><i class="fa-solid fa-up-long"></i></button>
+                    <input type="button" id="break-length" value="5" max="60">
+                    <button type="button" id="break-decrement"><i class="fa-solid fa-down-long"></i></button>
+                </div>   
+            </div>
+            <div id="session-label">
+                <h2>Session Length</h2>
+                <div class="buttons-container" id="session-container">
+                    <button type="button" id="session-increment"><i class="fa-solid fa-up-long"></i></button>
+                    <input type="button" id="session-length" value="25" max="60">
+                    <button type="button" id="session-decrement"><i class="fa-solid fa-down-long"></i></button>
+                </div>   
+            </div>
+            <div id="timer-label">
+                <h4 id="timer">title</h4>
+                <div id="time-left">
+                    <input type='number' id="minutes" value="00" max="60" min="00">: <input type='number' id="seconds" value="00" max="60" min="00">
+                </div>
+                
+            </input>
+            <div id="controls">
+                <audio  id="audio"><source src="01 Ding.mp3" type="audio/mp3"></audio>
+                <button type="button" id="start_stop"><i class="fa-solid fa-play"></i> <i class="fa-solid fa-pause"></i></button>
+                <button type="button" id="reset"><i class="fa-solid fa-arrows-rotate"></i></button>
+            </div>
+        </div>
+        <p id="author">Designed and code by <a href="https://www.freecodecamp.org/Rashin-Harisi">Rashin Harisi</a></p>
+        <script src="script.js"></script>
+    </body>
+</html>
